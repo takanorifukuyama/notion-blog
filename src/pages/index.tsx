@@ -68,7 +68,10 @@ export default ({ posts = [], preview }) => {
             <div className={blogStyles.postPreview} key={post.Slug}>
               <h3>
                 <Link href="/blog/[slug]" as={getBlogLink(post.Slug)}>
-                  <div className={blogStyles.titleContainer}>
+                  <div
+                    style={{ fontWeight: 'lighter' }}
+                    className={blogStyles.titleContainer}
+                  >
                     {!post.Published && (
                       <span className={blogStyles.draftBadge}>Draft</span>
                     )}
