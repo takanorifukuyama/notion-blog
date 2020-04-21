@@ -15,7 +15,7 @@ const navItems: { label: string; page?: string; link?: string }[] = [
 ]
 
 const ogImageUrl =
-  'https://firebasestorage.googleapis.com/v0/b/blog-c6f15.appspot.com/o/dune_ogp.png?alt=media&token=c7e234f4-fced-4bd6-a803-0b02d2cd98df'
+  'https://firebasestorage.googleapis.com/v0/b/blog-c6f15.appspot.com/o/dune_ogp_2.png?alt=media&token=6cae53cb-4da4-4a32-9691-b35c551254da'
 
 export default ({ titlePre = '' }) => {
   const { pathname } = useRouter()
