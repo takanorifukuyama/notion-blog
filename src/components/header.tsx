@@ -26,7 +26,7 @@ export default ({ titlePre = '' }) => {
         <title>{titlePre ? `${titlePre} |` : ''} DUNE</title>
         <meta
           name="description"
-          content="An example Next.js site using Notion for the blog"
+          content="Microservices, Kubernetes, Cloud Native, CleanArchitecture, Golang..."
         />
         <meta name="og:title" content="DUNE" />
         <meta property="og:image" content={ogImageUrl} />
