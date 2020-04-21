@@ -5,6 +5,6 @@ export default ({ Component, pageProps }) => (
   <>
     <Component {...pageProps} />
 
-    <footer>here is footer.</footer>
+    {/* <footer>here is footer.</footer> */}
   </>
 )

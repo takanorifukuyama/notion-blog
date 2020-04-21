@@ -19,7 +19,7 @@ export default ({ titlePre = '' }) => {
   return (
     <header className={styles.header}>
       <Head>
-        <title>{titlePre ? `${titlePre} |` : ''} My Notion Blog</title>
+        <title>{titlePre ? `${titlePre} |` : ''} DUNE</title>
         <meta
           name="description"
           content="An example Next.js site using Notion for the blog"
@@ -30,7 +30,7 @@ export default ({ titlePre = '' }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
-      <ul>
+      {/* <ul>
         {navItems.map(({ label, page, link }) => (
           <li key={label}>
             {page ? (
@@ -44,7 +44,7 @@ export default ({ titlePre = '' }) => {
             )}
           </li>
         ))}
-      </ul>
+      </ul> */}
     </header>
   )
 }
