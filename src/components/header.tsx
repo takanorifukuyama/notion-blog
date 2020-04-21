@@ -8,10 +8,14 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Home', page: '/' },
   { label: 'Blog', page: '/blog' },
   { label: 'Contact', page: '/contact' },
-  { label: 'Source Code', link: 'https://github.com/ijjk/notion-blog' },
+  {
+    label: 'Source Code',
+    link: 'https://github.com/takanorifukuyama/notion-blog',
+  },
 ]
 
-const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
+const ogImageUrl =
+  'https://firebasestorage.googleapis.com/v0/b/blog-c6f15.appspot.com/o/dune_ogp.png?alt=media&token=c7e234f4-fced-4bd6-a803-0b02d2cd98df'
 
 export default ({ titlePre = '' }) => {
   const { pathname } = useRouter()
@@ -24,7 +28,7 @@ export default ({ titlePre = '' }) => {
           name="description"
           content="An example Next.js site using Notion for the blog"
         />
-        <meta name="og:title" content="My Notion Blog" />
+        <meta name="og:title" content="DUNE" />
         <meta property="og:image" content={ogImageUrl} />
         <meta name="twitter:site" content="@_ijjk" />
         <meta name="twitter:card" content="summary_large_image" />
